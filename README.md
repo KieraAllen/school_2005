@@ -56,7 +56,7 @@ pry(main)> school.end_time
 ## Iteration 3
 
 Now, it is time for you to write your own tests!  Follow the interaction pattern below to write one test, make that test pass, and move on to the next test.  You will have at minimum, one test per new method.
-    * A school is considered full time, if its has more than 4 hours in its school day.  
+    * A school is considered full time if it has more than 4 hours in its school day.  
     * The method `standard_student_names` will return a list of student names, capitalized ('megan' should become 'Megan').
 
 ```ruby
@@ -80,7 +80,7 @@ pry(main)> school.standard_student_names
 ## Iteration 4
 
 Continue writing tests to satisfy the following interaction pattern.
-    * The method `convert_end_time_to_clock_time` will change the format of the end time to a 12 hour format (for example, 15:00 would be converted to 3:00).
+    * The method `convert_end_time_to_clock_time` will change the format of the end time to a 12-hour format (for example, 15:00 would be converted to 3:00).
 
 ```ruby
 pry(main)> require './lib/school'
