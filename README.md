@@ -4,7 +4,7 @@
 
 * Fork this Repository
 * Clone your forked repo
-* Complete the activity Below
+* Complete the activity below
 * Push your solution to your repo
 * Submit a Pull Request from your repo to this repo
     * Put your name in your PR!
@@ -32,8 +32,8 @@ pry(main)> school.student_names
 
 ## Iteration 2
 
-For iteration 2, we have created all of the tests you will need - unskip tests one by one, making each pass before moving on the the next test.  The tests will model the interaction pattern below.  
-    * The `end_time` method should add the `hours_in_school_day` to the `start_time` and return the time in 24 hour format.  For example, 3:00 PM (12hour / clock time) is 15:00 (24hour). A school day will only ever start at the top of the hour (:00).
+For Iteration 2, we have created all of the tests you will need - unskip tests one by one, making each pass before moving on the the next test.  The tests will model the interaction pattern below.  
+    * The `end_time` method should add the `hours_in_school_day` to the `start_time` and return the time in 24-hour format.  For example, 3:00 PM (12-hour / clock time) is 15:00 (24-hour). A school day will only ever start at the top of the hour (:00).
 
 ```ruby  
 pry(main)> require './lib/school'
