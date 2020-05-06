@@ -11,7 +11,7 @@
 
 ## Iteration 1
 
-For iteration 1, we have created all of the tests you will need - unskip tests one by one (by removing 'skip') and make each pass before moving on to the next test.  The tests will model the following interaction pattern:
+For Iteration 1, we have created all of the tests you will need - unskip tests one by one (by removing 'skip') and make each pass before moving on to the next test.  The tests will model the following interaction pattern:
 
 ```ruby
 pry(main)> require './lib/school'
